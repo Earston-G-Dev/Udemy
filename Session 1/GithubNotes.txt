@@ -1,2 +1,17 @@
 This is the not section for github to gelp get good practice in.
 Github Is the central section for Code and progjects.
+To sum up my own understanding Git is a tool that tracks code phases and changes and also saves the prior updates and states of code so that it can be compared and reviewed.
+
+
+Creating a workspace from github site to local.
+
+
+Things VERY important to consider
+1.Ensure to do work on a branch seperate from the MAIN branch(perferably by creating your own[Check the bottom left])
+2.Communicate with the other members of the team to ensure that teamwork and coordination is accurate. This also ensures the most efficient workflow.
+
+Merging local changes with github main branch.
+1.Save changes
+2.Use the terminal and input "git add ."
+-This pends changes before the commit storing what is updated in the workspace.(Endure to save changes before adding[CTRL+S])
+3.
