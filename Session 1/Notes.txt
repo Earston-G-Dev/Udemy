@@ -1,0 +1,21 @@
+*This will be where i implement Practice and notes for Section 1 of the course.*
+ 
+Part 1.
+
+JavaScriot is a High level, object Oriented, Multi-Paradigm(Can use diffirent Styles) Programming Language.
+
+The 3 core technologies of the web are HTML,CSS, and Javascript
+HTML is for content
+CSS is for Presentation(styling). 
+Javascript allows to add dynamic and interactive effects. It also manipulates content, load data from other remote servers. Creates web Applications.
+
+A good analogy for these tools are Nouns, Adjectives and Verbs
+
+Html is the noun an example is the <p><p> tag
+As adjectives describe the nouns CSS gives description to the P tags like color,font, alignment, and format.
+
+Javascript would then be the verb, meaning actions such as hide or do something.
+ 
+
+
+Part 2.
