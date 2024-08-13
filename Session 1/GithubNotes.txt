@@ -5,13 +5,39 @@ To sum up my own understanding Git is a tool that tracks code phases and changes
 
 Creating a workspace from github site to local.
 
-
 Things VERY important to consider
 1.Ensure to do work on a branch seperate from the MAIN branch(perferably by creating your own[Check the bottom left])
 2.Communicate with the other members of the team to ensure that teamwork and coordination is accurate. This also ensures the most efficient workflow.
+3.Use short names and lower case letters that describe the purpose of the branch. Use prefixes. 
+4.Git Commit regularly.
+5.Utilize atomic commits. This is a commit made specifically for One individual change.
+
+
+Getting Started
+1.Make sure to pull the code from the main branch so that the updated code is now in the workplace.
+2.Do this By ensuring you are in the main branch.
+
+
+
+Making a branch
+1.Open a terminal in the coding workspace
+2.Input git init to initiate the git workspace
+3.Input git branch
+-this should display the current branch your in.
+4.Input git branch but after branch put the new branch name. This creates the new branch.
+5.After this the new branch has to be checked into.
+6.Navigate branches by inputing git checkout 'desired branch to go to'
+7.If succesful it will display at the bottom left of the screen
 
 Merging local changes with github main branch.
 1.Save changes
 2.Use the terminal and input "git add ."
--This pends changes before the commit storing what is updated in the workspace.(Endure to save changes before adding[CTRL+S])
-3.
+-This pends changes before the commit storing what is updated in the workspace.(Ensure to save changes before adding[CTRL+S])
+3.When ready input git push -u origin main
+'-git push' is the base command, 'main' is the destination branch we desire the changes to
+push to.
+-'-u' is shorthand for set upstream{will research more later}
+ 4. Initiate a pull request if needed
+
+ 5.If a pull request is required go to github after the above steps.
+ -If push was succesful it should show in github at top in yellow.(If not we can go to pull request tab and it should list all pull request)
