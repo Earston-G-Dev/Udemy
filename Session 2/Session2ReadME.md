@@ -1,0 +1,1 @@
+This is where im going to practice conditional ternery operations.
