@@ -47,3 +47,5 @@ console.log('String with \n\
 
 console.log(`String with
     new lines`)
+
+//This ES6 feature will come in handy when using in tandom with HTML.
