@@ -38,4 +38,12 @@ console.log(example5);
 //Creating multi line strings.
 //The original way to implement is below.....
 console.log('String with \n\
-     see whats next')
+     see whats next');
+
+//Here \n\ is what is used to make a new line in the string.
+//May be universal in other languages.
+//Using Backtics removes the need to use \n\ 
+//Now we only need  to just move to the next line. See Below
+
+console.log(`String with
+    new lines`)
