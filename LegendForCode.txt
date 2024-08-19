@@ -1,0 +1,2 @@
+Shortcuts
+CTRL + K + C = Makes line a Comment

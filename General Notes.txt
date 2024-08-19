@@ -1,0 +1,5 @@
+Here i will log things that i have trouble understanding and 
+make this a place to look into and practice said subjects.
+
+STRINGS & TEMPLATE LITERALS
+*Use `` instead of '' or "" for template Literals
