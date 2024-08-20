@@ -1,0 +1,1 @@
+This section of learning is going to pertain to functions and learning of the basics of them.
