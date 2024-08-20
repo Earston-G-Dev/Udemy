@@ -50,3 +50,16 @@ console.log(fruitProcessor(9,9))
 //Returning means the result of the juice function will be whats returned. 
 //Then we have to store the value. By saving it. then we can log it for the juice string.
 //OR we could just console log fruitProcessor with the values.
+
+
+
+//Practice below
+
+function weeklyPay(day1, day2, day3, day4, day5) {
+console.log(day1, day2, day3, day4, day5)
+const Pay = `YoYo made ${day1 + day2 + day3 + day4 + day5} dollars this week`;
+return Pay;
+};
+
+console.log(weeklyPay(112.55, 122.54, 155.99, 177.42, 128.75));
+console.log(weeklyPay(155.55, 147.54, 155.99, 177.42, 142.75));
