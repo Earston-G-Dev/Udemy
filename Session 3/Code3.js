@@ -3,6 +3,19 @@
 //A function is a line of code that initiates a action or process for
 //interacting with websites and applications.
 //Lets start by making a function.
+
+//FUNCTION LEGEND
+//FUNCTION EXPRESSION
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+
+//ARROW FUNCTIONS
+const calcAge3 = birthYear => 2037 - birthYear;
+
+
+
+
 //We start by declaring a function 
 function logger() {
     console.log(`Say hello to A better future!`)
@@ -64,11 +77,21 @@ function weeklyPay(day1, day2, day3, day4, day5) {
 console.log(weeklyPay(112.55, 122.54, 155.99, 177.42, 128.75));
 console.log(weeklyPay(155.55, 147.54, 155.99, 177.42, 142.75));
 
-
+//Payroll Practice with top as a reference
 function getChecks(Monday, Tuesday, Wednesday, Thursday, Friday) {
-    console.log(getChecks);
+    console.log(Monday, Tuesday, Wednesday, Thursday, Friday);
     const hoursWorked = `This worker worked ${Monday + Tuesday + Wednesday + Thursday + Friday} hours this week!`;
     return hoursWorked;
 }
 
 console.log(getChecks(40, 40, 35, 30, 20));
+
+//Lets talk about arrow functions
+//
+
+
+//What is strict mode
+//Makes it easier to write secure code.
+//To activate it input " 'use strict': " at the top of the page.
+//Helps prevent us from making accidental code.
+
