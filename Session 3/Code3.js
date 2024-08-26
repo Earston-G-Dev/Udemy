@@ -4,90 +4,117 @@
 //interacting with websites and applications.
 //Lets start by making a function.
 
-//FUNCTION LEGEND
-//FUNCTION EXPRESSION
-const calcAge2 = function (birthYear) {
-    return 2037 - birthYear;
-}
+//Notes are commented with 4 forward ticks, whilw the code is comented with 2 forward ticks
 
-//ARROW FUNCTIONS
-const calcAge3 = birthYear => 2037 - birthYear;
-
-
-
-
-//We start by declaring a function 
-function logger() {
-    console.log(`Say hello to A better future!`)
-}
-
-//Here we are calling, running, or invoking a function.
-logger();
-logger();
-logger();
-logger();
-
-//Functions can also return data as well. This allows us to get information back that we 
-//can use elsewhere.
-//Next lets try adding arguments to the function.()
-//Lets try it
-function fruitProcessor(apples, oranges) {
-    console.log(apples, oranges);
-    //So what we do now is we set up a string to use as an example of parameters.
-    //For instance if we input 7 for apples and 7 for oranges we 
-    //can use that information and concatinate it in a const process called juice.
-    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
-
-    //Afterwards we want to input return so we can see our  results.
-    return juice;
-};
-//We now have a reusable function that we  can use anywhere in our code simply by callinng it.
-//We also have the ability to change the value of the arguments each time.
-
-fruitProcessor(7, 7);
-//success
-//For now our string is nowhere to be found,
-//To fix this we want to store it in a variable.
-
-const appleJuice = fruitProcessor(5, 5);
-console.log(appleJuice);
-//OR
-console.log(fruitProcessor(9, 9))
-
-//Recap
-//We called fruitProcessor with 2 arguments.
-//When it runs now apples and oranges will = the values we input
-//in the parenthesis of the function call.(We get 5,5 in the console)
-//We then use those values to create the juice string inside the function.
-// Then we return it from the function.
-//Returning means the result of the juice function will be whats returned. 
-//Then we have to store the value. By saving it. then we can log it for the juice string.
-//OR we could just console log fruitProcessor with the values.
+// //FUNCTION LEGEND
+// //FUNCTION EXPRESSION
+// const calcAge2 = function (birthYear) {
+//     return 2037 - birthYear;
+// }
+// //Or
+// function payment(hWage, hours) {
+//     let pay = hours * hWage;
+//     return pay;
+// }
 
 
+// console.log(payment(50, 41));
+// console.log(payment(57, 43));
 
-//Practice below
 
-function weeklyPay(day1, day2, day3, day4, day5) {
-    console.log(day1, day2, day3, day4, day5)
-    const Pay = `YoYo made ${day1 + day2 + day3 + day4 + day5} dollars this week`;
-    return Pay;
-};
+// //ARROW FUNCTIONS
+// //Lets talk about arrow functions
+// //This is how we write an arrow function.
+// const calcAge3 = birthYear => 2037 - birthYear;
+// //or
+// const payment1 = (hWage, hours, worker) => {
+//     const pay = hWage * hours;
+//     return `${worker} made ${pay} this pay check!`;
+// };
 
-console.log(weeklyPay(112.55, 122.54, 155.99, 177.42, 128.75));
-console.log(weeklyPay(155.55, 147.54, 155.99, 177.42, 142.75));
+// console.log(payment1(75, 30, 'YoYo'));
+// //NOTE!!!!!
+// //Remember that when doing names or strings they need to be surrounded by quotes.
 
-//Payroll Practice with top as a reference
-function getChecks(Monday, Tuesday, Wednesday, Thursday, Friday) {
-    console.log(Monday, Tuesday, Wednesday, Thursday, Friday);
-    const hoursWorked = `This worker worked ${Monday + Tuesday + Wednesday + Thursday + Friday} hours this week!`;
-    return hoursWorked;
-}
+// console.log(payment1(50, 40));
+// //The pros of arrow functions are as follows
+// //1.They are easier to write
+// //2.They return implicitly meaning we no longer have to write the return keyword.
 
-console.log(getChecks(40, 40, 35, 30, 20));
 
-//Lets talk about arrow functions
-//
+// //We start by declaring a function
+// function logger() {
+//     console.log(`Say hello to A better future!`)
+// }
+
+// //Here we are calling, running, or invoking a function.
+// logger();
+// logger();
+// logger();
+// logger();
+
+// //Functions can also return data as well. This allows us to get information back that we
+// //can use elsewhere.
+// //Next lets try adding arguments to the function.()
+// //Lets try it
+// function fruitProcessor(apples, oranges) {
+//     console.log(apples, oranges);
+// //So what we do now is we set up a string to use as an example of parameters.
+// //For instance if we input 7 for apples and 7 for oranges we
+// //can use that information and concatinate it in a const process called juice.
+// const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+
+// //Afterwards we want to input return so we can see our  results.
+//     return juice;
+// };
+// //We now have a reusable function that we  can use anywhere in our code simply by callinng it.
+// //We also have the ability to change the value of the arguments each time.
+
+// fruitProcessor(7, 7);
+// //success
+// //For now our string is nowhere to be found,
+// //To fix this we want to store it in a variable.
+
+// const appleJuice = fruitProcessor(5, 5);
+// console.log(appleJuice);
+// //OR
+// console.log(fruitProcessor(9, 9))
+
+// //Recap
+// //We called fruitProcessor with 2 arguments.
+// //When it runs now apples and oranges will = the values we input
+// //in the parenthesis of the function call.(We get 5,5 in the console)
+// //We then use those values to create the juice string inside the function.
+// // Then we return it from the function.
+// //Returning means the result of the juice function will be whats returned.
+// //Then we have to store the value. By saving it. then we can log it for the juice string.
+// //OR we could just console log fruitProcessor with the values.
+
+
+
+// //Practice below
+
+// function weeklyPay(day1, day2, day3, day4, day5) {
+//     console.log(day1, day2, day3, day4, day5)
+//     const Pay = `YoYo made ${day1 + day2 + day3 + day4 + day5} dollars this week`;
+//     return Pay;
+// };
+
+// console.log(weeklyPay(112.55, 122.54, 155.99, 177.42, 128.75));
+// console.log(weeklyPay(155.55, 147.54, 155.99, 177.42, 142.75));
+
+// //Payroll Practice with top as a reference
+// function getChecks(Monday, Tuesday, Wednesday, Thursday, Friday) {
+//     console.log(Monday, Tuesday, Wednesday, Thursday, Friday);
+//     const hoursWorked = `This worker worked ${Monday + Tuesday + Wednesday + Thursday + Friday} hours this week!`;
+//     return hoursWorked;
+// }
+
+// console.log(getChecks(40, 40, 35, 30, 20));
+
+// //Lets talk about arrow functions
+// //This is how we write an arrow function.
+
 
 
 //What is strict mode
@@ -95,3 +122,5 @@ console.log(getChecks(40, 40, 35, 30, 20));
 //To activate it input " 'use strict': " at the top of the page.
 //Helps prevent us from making accidental code.
 
+// 29589867
+// 29590551  
